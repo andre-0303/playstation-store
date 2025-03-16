@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playstation Store</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img src="/img/logo.png" alt="logo" class="logo" />
+        <nav>
+          <ul id="menu-list">
+            <li class="nav-li">
+              <a href="#">Consoles</a>
+            </li>
+            <li class="nav-li">
+              <a href="#">Acessórios</a>
+            </li>
+            <li class="nav-li">
+              <a href="#">Controles</a>
+            </li>
+            <li class="nav-li">
+              <a href="#">Outros</a>
+            </li>
+          </ul>
+        </nav>
+        <img
+          src="/img/menu.png"
+          alt="menu"
+          class="menu-icon"
+          onclick="showMenu()"
+        />
+      </div>
+
+      <div class="row">
+        <div class="column-1">
+          <h2>PS5 Dualshock</h2>
+          <h3>Wireless Controller for Playstation</h3>
+          <p style="color: #000">Controle Original</p>
+          <h4>R$ 222,50</h4>
+          <button class="buy">
+            Comprar Agora
+            <img src="/img/arrow.png" alt="seta" />
+          </button>
+        </div>
+        <div class="column-2">
+          <img src="/img/controller.png" alt="controle" class="controller" />
+          <div class="color-box"></div>
+          <button class="add" onclick="add()">
+            <img src="/img/add.png" alt="adicionar" />
+          </button>
+        </div>
+      </div>
+
+      <div class="social-links">
+        <img src="/img/fb.png" alt="facebook" />
+        <img src="/img/ig.png" alt="instagram" />
+        <img src="/img/tw.png" alt="twitter" />
+      </div>
+    </div>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
